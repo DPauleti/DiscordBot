@@ -34,7 +34,7 @@ async def on_member_join(member): #When a new member joins the server
         f'Hi {member.name}, welcome to my Discord server!'
     )
 
-@bot.event(name="quote")
+@bot.command(name='quote')
 async def quote(ctx):
     
     limbus_quotes = [
